@@ -20,4 +20,4 @@ __資料資訊:__
 16.MTRANS :請問你通常使用哪種交通工具?(特徵，分類)  
 17.NObeyesdad :肥胖等級(目標，分類)  
 __其他說明:__  
-Obesity_Levels.py執行後會有obesity_level_ml_model.sav，我已直接放在code\django\obesity_levels裡，方便django使用
+code裡的obesity_levels資料夾是django的資料，且Obesity_Levels.py執行後會有obesity_level_ml_model.sav，我已直接放在code\obesity_levels裡，方便django使用
