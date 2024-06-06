@@ -1,6 +1,6 @@
 資料是取自https://www.kaggle.com/datasets/fatemehmehrparvar/obesity-levels  
 參考https://www.mdpi.com/2076-3417/13/6/3875 做資料處理  
-__資料資訊__:  
+__資料資訊:__  
 資料集包括根據墨西哥、秘魯和哥倫比亞國家個人的飲食習慣和身體狀況估計其肥胖程度的資料。77%的數據是使用Weka工具和SMOTE篩選綜合產生的，23%的數據是透過網路平台直接從用戶收集的。  
 1.Age :請問你的年齡?(特徵，數值型態)  
 2.Gender :請問你的性別?(特徵，二元分類)  
@@ -19,3 +19,5 @@ __資料資訊__:
 15.CAEC :請問你經常在兩餐之間吃任何食物嗎?(特徵，分類)  
 16.MTRANS :請問你通常使用哪種交通工具?(特徵，分類)  
 17.NObeyesdad :肥胖等級(目標，分類)  
+__其他說明:__  
+Obesity_Levels.py執行後會有obesity_level_ml_model.sav，我已直接放在code\django\obesity_levels裡，方便django使用
