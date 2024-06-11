@@ -20,6 +20,6 @@ from obesity_app import views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("home/",views.home),
-    path('home/result/', views.result),
+    path("",views.home),
+    path('result/', views.result),
 ]
