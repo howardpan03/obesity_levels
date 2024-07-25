@@ -285,3 +285,10 @@ print('--------------------分割線--------------------')
 print('新的X未標準化')        #以新的X來提升準確率
 ml_model(new_X)
 #因為KMeans的準確率很小，因此就不再訓練KMeans
+
+#以pickle方式存取模型
+import pickle
+XTrain,XTest,yTrain,yTest = train_test_split(X,y,test_size=0.25, random_state=30)
+lgbm = LGBMClassifier(verbose=-1)
+lgbm.fit(XTrain, yTrain)
+pickle.dump(lgbm,open("obesity_level_ml_model.sav", "wb"))
